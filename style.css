@@ -310,3 +310,58 @@ footer {
     margin-right: 9px;
 }
 
+@media (max-width: 850px) {
+
+    .projects h1, .about-me h1 , .languages h1 {
+        font-size: 32px;
+    }
+
+    .menu a.link {
+        display: none;
+    }
+
+    .about-me-text {
+        display: block;
+        margin: auto;
+        margin-top: 20px;
+        max-width: 89vw;
+    }
+
+    .language-row {
+        flex-wrap: wrap;
+    }
+
+    .language-wrapper {
+        width: 33.33%;
+    }
+
+    .project-desc {
+        left: 47px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 75%;
+    }
+
+    .project-wrapper {
+        max-width: 425px;
+        margin-bottom: 125px;
+    }
+
+    .project-image {
+        height: 300px;
+    }
+
+    .project-title {
+        font-size: 28px;
+    }
+
+    .projects-languages {
+        font-size: 22px;
+    }
+    
+    .project-paragraph {
+        font-size: 16px;
+    }
+}
+
