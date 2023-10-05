@@ -434,6 +434,7 @@ span {
     height: 3.5rem;
     font-size: 1rem;
     padding-left: 0.3rem;
+    border-radius: 10px;
 }
 
 textarea {
@@ -448,6 +449,7 @@ textarea {
     padding-bottom: 13rem;
     resize: none;
     overflow-y: hidden;
+    border-radius: 10px;
 }
 
 form button {
@@ -502,7 +504,7 @@ form button:hover {
     
     .home-text p {
         margin-top: 0.5rem;
-        font-size: 1em;
+        font-size: 1rem;
     }
     
     .social-link {
@@ -526,6 +528,222 @@ form button:hover {
     
     .image-me-home {
         width: 14rem;
+    }
+
+    .about-box {
+        display: block;
+    }
+
+    .about-content-box {
+        width: 100vw;
+        flex-direction: column-reverse;
+    }
+    
+    .about-photo-box {
+        display: none;
+    }
+    
+    .about-text-box {
+        width: 95vw;
+    }
+    
+    .about-text {
+        margin-left: 1rem;
+    }
+    
+    .about-text h1 {
+        font-size: 2.5rem;
+        margin-top: 1.5rem;
+    }
+    
+    .about-text h2 {
+        margin-top: 1rem;
+        font-size: 2rem;
+        margin-bottom: 20px;
+    }
+    
+    .about-me p {
+        font-size: 1rem;
+    }
+    
+    .languages-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 90vw;
+        gap: 0%;
+    }
+    
+    .languages-box img {
+        width: 6rem;
+        height: 6rem;
+    }
+    
+    
+    .language-wrapper p {
+        font-size: 1.1rem;
+    }
+    
+    .services-box {
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .services-box h1 {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    .services-content {
+        margin-top: 0rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100vw;
+    }
+    
+    .services-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 0vw;
+        margin-bottom: 1rem;
+    }
+    
+    .service-box {     
+        width: 85vw;
+        margin-bottom: 1rem;
+    }
+    
+    .service-box i {
+        margin-top: 0.5rem;
+        font-size: 4rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .service-box h3 {
+        width: 90%;
+        line-height: 2.5rem;
+        margin-bottom: 10px;
+        font-size: 2rem;
+    }
+    
+    .services-box p {
+        width: 85%;
+        margin-bottom: 1.5rem;
+        font-size: 1.2rem;
+    }
+
+    .projects-box {
+        height: auto;
+        background-color: #323946;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .projects-box > h1 {
+        margin-top: 1rem;
+        font-size: 2.5rem;
+        padding-bottom: 0px;
+    }
+    
+    .projects-wrapper {
+        width: 90vw;
+        flex-direction: column;
+        gap: 0;
+        margin-bottom: 0.5rem;
+    }
+    
+    .project-wrapper {
+        width: 90vw;
+    }
+
+    .project-box {
+        margin-bottom: 1.2rem;
+    }
+    
+    .project-box img {
+        width: 90vw;
+    }
+    
+    .project-desc-text {
+        width: 95%;
+        text-align: center;
+    }
+    
+    .project-desc-title {
+        font-size: 1.5rem;
+    }
+    
+    .project-desc-text p {
+        font-size: 1rem;
+    }
+    
+    .project-link {
+        margin: 0.3rem 0.1rem 0rem 0.1rem;
+        font-size: 1rem;
+        height: 2rem;
+        width: 2rem;
+    }
+
+    .contact-box {
+        height: 89vh;
+        width: 100vw;
+    }
+    
+    .contact-wrapper h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+    
+    .form-box {
+        width: 85vw;
+    }
+    
+    .contact-input {
+        gap: 3%;
+    }
+    
+    .contact-input input {
+        width: 49.5%;
+        margin-bottom: 0.5rem;
+        height: 3rem;
+        font-size: 1rem;
+        padding-left: 0.3rem;
+    }
+    
+    textarea {
+        height: 20rem;
+    }
+    
+    form button {
+        display: inline-block;
+        background-color: #0ef;
+        color: #1f242d;
+        text-decoration: none;
+        box-shadow: 0 0 10px #0ef;
+        font-size: 1.1rem;
+        padding: 0.7rem 2.1rem;
+        margin-top: 1rem;
+        border-radius: 35px;
+        border: none;
+        cursor: pointer;
+    }
+    
+    form button:hover {
+        box-shadow: none;
+        transition: 0.5s ease;
+    }
+
+}
+
+@media (max-width: 1400px) and (min-width: 800px) {
+
+    html {
+        font-size: 14px;
     }
 
 }
