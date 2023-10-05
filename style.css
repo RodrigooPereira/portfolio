@@ -746,6 +746,10 @@ form button:hover {
         font-size: 14px;
     }
 
+    textarea {
+        height: 15rem;
+    }
+
 }
 
 
