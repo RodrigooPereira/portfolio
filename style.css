@@ -31,6 +31,15 @@ header {
     z-index: 99;
 }
 
+.header-box h1 {
+    margin-left: 7vw;
+    font-size: 2.6rem;
+}
+
+i#menu {
+    display: none;
+}
+
 nav a {
     text-decoration: none;
     color: #fff;
@@ -473,8 +482,32 @@ form button:hover {
 
 @media (max-width: 800px) {
 
-    nav a {
+    .header-box h1 {
+        margin-left: 0.7rem;
+        font-size: 2.1rem;
+    }
+
+    nav#itens {
         display: none;
+        position: absolute;
+        top: 11vh;
+        left: 0;
+        height: 35vh;
+        width: 100vw;
+        z-index: 99;
+        background-color: #1f242d;
+    }
+
+    nav a {
+        display: block;
+        font-size: 2.7vh;
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+    i#menu {
+        display: block;
+        font-size: 2.1rem;
     }
 
     .home-content {
