@@ -523,7 +523,7 @@ form button:hover {
     
     .home-text {
         width: 90%;
-        margin-top: 0.5rem;
+        margin-top: 0.3rem;
         margin-left: 0.7rem;
     }
     
@@ -555,12 +555,13 @@ form button:hover {
     }
     
     .home-photo-box {
+        margin-top: 1rem;
         width: 100vw;
         height: auto;
     }
     
     .image-me-home {
-        width: 14rem;
+        width: 12rem;
     }
 
     .about-box {
@@ -776,7 +777,7 @@ form button:hover {
 @media (max-width: 1400px) and (min-width: 800px) {
 
     html {
-        font-size: 14px;
+        font-size: 13px;
     }
 
     textarea {
