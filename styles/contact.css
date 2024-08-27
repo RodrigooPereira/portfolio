@@ -1,0 +1,251 @@
+#contact-header {
+    color: #00e187;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #00e187;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#contact-container__wrapper {
+    width: 75vw;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+}
+
+#contact-form__wrapper {
+    width: 52.5%;
+    background-color: #28272C;
+    display: flex;
+    border-radius: 15px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact-form__box {
+    padding: 2rem 0;
+    width: 90%;
+}
+
+#contact-form__box h2 {
+    color: #00e187;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#contact-form__box p {
+    color: #b8b2b2;
+    margin: 1rem 0 1.5rem 0;
+    line-height: 1.5rem;
+}
+
+form {
+    display: flex;
+    gap: 4%;
+    flex-wrap: wrap;
+}
+
+form input {
+    width: 48%;
+}
+
+form input, form select {
+    padding: 0.75rem;
+    background-color: #1C1C22;
+    color: #b8b2b2;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    border: none;
+    font-size: 0.9rem;
+}
+
+form input::placeholder {
+    color: #6d6c6c;
+}
+
+#select-box {
+    width: 100%;
+    position: relative;
+}
+
+form select {
+    width: 100%;
+    color: #b8b2b2;  
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    position: relative;
+}
+
+#select-box::after {
+    content: '';
+    background: url('../images/bx-chevron-down.svg') center no-repeat;
+    background-size: 1.75rem;
+    pointer-events: none;
+    position: absolute;
+    right: 0rem;
+    top: 0rem;
+    display: block;
+    width: 2.7rem;
+    height: 2.7rem;
+}
+
+form textarea::placeholder {
+    color: #6d6c6c;
+}
+
+form textarea {
+    width: 100%;
+    background-color: #1C1C22;
+    color: #b8b2b2;  
+    font-size: 0.95rem;
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 12.5rem;
+    margin-bottom: 1.25rem;
+}
+
+form button {
+    padding: 0.75rem 1.25rem;
+    color: #1C1C22;
+    background-color: #00e187;
+    box-shadow: 0 0 7.5px #00e187;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+form button:hover {
+    box-shadow: none;
+    transition: all ease 0.5s;
+}
+
+/* RIGHT SIDE */
+
+#contact-contacts__wrapper {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-box {
+    display: flex;
+    margin: 2rem 0;
+}
+
+.contact-img__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #28272C;
+}
+
+.contact-img__box {
+    font-size: 2.5rem;
+    color: #00e187;
+}
+
+.contact-text__box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.item {
+    color: #b8b2b2;
+    font-size: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+.info {
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 1150px) {
+
+    main {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #contact-container__wrapper {
+        margin-top: 2rem;
+        width: 90vw;
+        height: auto;
+        flex-direction: column;
+    }
+    
+    #contact-form__wrapper {
+        width: 100%;
+    }
+    
+    #contact-form__box {
+        padding: 2rem 0;
+        width: 90%;
+    }
+    
+    #contact-form__box h2 {
+        font-size: 2rem;
+    }
+    
+    form {
+        gap: 0;
+    }
+    
+    form input {
+        width: 100%;
+    }
+    
+    form textarea {
+        height: 12.5rem;
+        margin-bottom: 1.25rem;
+    }
+
+    /* RIGHT SIDE */
+    
+    #contact-contacts__wrapper {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .contact-box {
+        display: flex;
+        margin: 2rem 0;
+    }
+    
+    .contact-img__box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3.5rem;
+        height: 3.5rem;
+        background-color: #28272C;
+    }
+    
+    .contact-img__box {
+        font-size: 1.75rem;
+    }
+    
+    .contact-text__box {
+        margin-left: 0.75rem;
+    }
+    
+    .info {
+        font-size: 1rem;
+    }
+
+}

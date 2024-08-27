@@ -1,0 +1,214 @@
+#index-header {
+    color: #00e187;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #00e187;
+}
+
+.home-box {
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C22;
+    height: 89vh;
+}
+
+.home-content {
+    width: 75vw;
+    display: flex;
+}
+
+.home-text-box {
+    width: 38vw;
+    color: white;
+    height: 89vh;
+    display: flex;
+    align-items: center;
+}
+
+.home-text {
+    width: 95%;
+}
+
+.home-text h2 {
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+
+span#name {
+    color: #00e187;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    display: inline-block;
+    border-right: 2px solid #CCCCCC;
+    animation: typing 2s steps(15, end) forwards, blink 1s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 36rem; }
+}
+
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #CCCCCC; }
+}
+
+.home-text h1 {
+    font-size: 4rem;
+    line-height: 4.75rem;
+}
+
+.home-text p {
+    font-size: 1.2em;
+    color: #dddcdc;
+}
+
+.social-link {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1px solid #00e187;
+    color: #00e187;
+    border-radius: 50%;
+    margin: 1.25rem 0.4rem 0 0.4rem;
+    font-size: 1.7rem;
+    height: 3.4rem;
+    width: 3.4rem;
+}
+
+.social-link:hover, .download-cv:hover {
+    background-color: #00e187;
+    color: #1f242d;
+    box-shadow: 0 0 10px #00e187;
+    transition: 0.5s ease;
+}
+
+.download-cv {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1C1C22;
+    color: #00e187;
+    text-decoration: none;
+    border: 1px solid #00e187;
+    font-size: 1.3rem;
+    padding: 1rem 2.2rem;
+    margin-top: 1.8rem;
+    border-radius: 35px;
+}
+
+i#download-icon {
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+}
+
+
+.home-photo-box {
+    width: 37vw;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.image-me-home {
+    width: 30vw;
+    border-radius: 50%;
+    border: 5px solid #00e187;
+    box-shadow: 0 0 10px #00e187;
+}
+
+@media (max-width: 800px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+    .home-box {
+        display: flex;
+        justify-content: center;
+        height: auto;
+    }
+    
+    .home-content {
+        width: 90vw;
+        display: flex;
+        flex-direction: column-reverse;
+        padding: 2rem 0 2.5rem 0;
+    }
+    
+    .home-text-box {
+        width: 90vw;
+        height: auto;
+        display: flex;
+        align-items: center;
+    }
+    
+    .home-text {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .home-text h2 {
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    
+    span#name {
+        color: #00e187;
+        width: auto;
+        white-space: wrap;
+        overflow: hidden;
+        display: inline-flex;
+        flex-wrap: wrap;
+        border-right: none;
+        animation: none;
+    }
+    
+    .home-text h1 {
+        text-align: center;
+        font-size: 2rem;
+        line-height: 3.2rem;
+        margin: 0.5rem 0 1rem 0;
+    }
+    
+    .home-text p {
+        font-size: 1.2em;
+        color: #dddcdc;
+    }
+    
+    .social-link {
+        margin: 1.25rem 0.3rem 0 0.3rem;
+        font-size: 1.5rem;
+        height: 3rem;
+        width: 3rem;
+    }
+    
+    .download-cv {
+        font-size: 1.2rem;
+        padding: 1rem 2rem;
+        margin-top: 1.6rem;
+    }
+    
+    i#download-icon {
+        font-size: 1.5rem;
+        margin-left: 0.5rem;
+    }
+    
+    .home-photo-box {
+        width: 90vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 1rem;
+    }
+    
+    .image-me-home {
+        width: 75vw;
+        border-radius: 50%;
+        border: 5px solid #00e187;
+        box-shadow: 0 0 10px #00e187;
+    }
+
+}
+

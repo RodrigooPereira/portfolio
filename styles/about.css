@@ -1,0 +1,285 @@
+#about-header {
+    color: #00e187;
+    padding-bottom: 0.2rem;
+    border-bottom: 2px solid #00e187;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: #1C1C22;
+}
+
+#about-wrapper {
+    display: flex;
+    width: 75vw;
+    padding-top: 3rem;
+    height: 89vh;
+}
+
+#left-box {
+    width: 30%;
+}
+
+#left-text__box h1 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+#left-text__box p {
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    color: #b8b2b2;
+    margin-bottom: 3rem;
+}
+
+#left-text__box button { 
+    background-color: #28272C;
+    color: #fff;
+    border: none;
+    font-size: 1.1rem;
+    width: 100%;
+    padding: 1rem 0;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border-radius: 7.5px;
+}
+
+#left-text__box button.active {
+    background-color: #00e187;
+    color: #1C1C22;
+}
+
+#left-text__box button:focus  {
+    background-color: #00e187;
+    color: #1C1C22;
+    transition: all ease 0.3s;
+}
+
+#left-text__box button:active {
+    background-color: #00e187;
+    color: #1C1C22;
+    transition: all ease 0.3s;
+}
+
+#right-box {
+    width: 70%;
+}
+
+#about-text__box h2, #skills-text__box h2, #education-box__wrapper h2, #experience-box__wrapper h2 {
+    font-size: 2.5rem;
+    color: #fff;
+}
+
+#about-text__box, #skills-text__box, #education-box__wrapper, #experience-box__wrapper {
+    margin-left: 3.5rem;
+}
+
+#skills-box, #experience-box, #education-box {
+    display: none;
+}
+
+/* ABOUT */ 
+
+#about-text__box p, #skills-text__box p, #education-box__wrapper p, #experience-box__wrapper p {
+    margin-top: 1.5rem;
+    color: #b8b2b2;
+    line-height: 1.5rem;
+}
+
+/* SKILLS */
+
+#skills-wrapper {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.skill-box {
+    width: 20%;
+    padding-top: 20%;
+    position: relative;
+    background-color: #28272C;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.skill-box i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 5.5rem;
+}
+
+.skill-box:hover i {
+    color: #00e187;
+    font-size: 6.5rem;
+    transition: all ease 0.3s;
+}
+
+.skill-box p {
+    transform: scale(0);
+    bottom: 10%;
+    position: absolute;
+    font-size: 1.2rem;
+}
+
+.skill-box:hover p {
+    transform: scale(1);
+    transition: all ease 0.3s;
+}
+
+/* EXPERIENCE AND EDUCATION */
+
+#education-boxes-wrapper, #experience-boxes__wrapper {
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.education-text__box, .experience-text__box {
+    background-color: #28272C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 47.5%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.education-text, .experience-text {
+    width: 87.5%;
+    padding: 2rem 0;
+}
+
+.education-text h4, .experience-text h4 {
+    color: #00e187;
+    font-size: 1.1rem;
+}
+
+.education-text h3, .experience-text h3 {
+    color: #fff;
+    margin: 0.75rem 0;
+    font-size: 1.5rem;
+}
+
+.education-text__box li, .experience-text__box li {
+    color: #b8b2b2;
+    list-style: disc;
+    margin-top: 0.5rem;
+}
+
+.education-text__box span, .experience-text__box span {
+    position: relative;
+    left: -5px;
+}
+
+li::marker {
+    color: #00e187;
+}
+
+@media (max-width: 800px) {
+    
+    #about-wrapper {
+        flex-direction: column;
+        width: 90vw;
+        padding-top: 1.75rem;
+        height: auto;
+    }
+    
+    #left-box {
+        width: 100%;
+        text-align: center;
+    }
+    
+    #left-text__box h1 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    
+    #left-text__box p {
+        font-size: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    
+    #left-text__box button { 
+        font-size: 1rem;
+        padding: 0.75rem 0;
+        margin-bottom: 1.5rem;
+    }
+    
+    #right-box {
+        width: 100%;
+    }
+    
+    #about-text__box h2, #skills-text__box h2, #education-box__wrapper h2, #experience-box__wrapper h2 {
+        font-size: 2rem;
+    }
+    
+    #about-text__box, #skills-text__box, #education-box__wrapper, #experience-box__wrapper {
+        padding: 0.5rem 0 2.5rem 0;
+        margin-left: 0;
+        text-align: center;
+    }
+    
+    #about-text__box p, #skills-text__box p, #education-box__wrapper p, #experience-box__wrapper p {
+        margin-top: 1.25rem;
+    }
+    
+    /* SKILLS */
+    
+    #skills-wrapper {
+        margin-top: 1.5rem;
+        gap: 6.5%;
+    }
+    
+    .skill-box {
+        width: 46.75%;
+        padding-top: 46.75%;
+        margin-bottom: 1.5rem;
+    }
+    
+    .skill-box i {
+        font-size: 6rem;
+    }
+    
+    .skill-box:hover i {
+        font-size: 6.5rem;
+    }
+    
+    .skill-box p {
+        font-size: 1.1rem;
+    }
+    
+    /* EXPERIENCE AND EDUCATION */
+    
+    #education-boxes-wrapper, #experience-boxes__wrapper {
+        margin-top: 2rem;
+        flex-direction: column;
+    }
+    
+    .education-text__box, .experience-text__box {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    
+    .education-text h3, .experience-text h3 {
+        font-size: 1.4rem;
+    }
+    
+    .education-text__box li, .experience-text__box li {
+        color: #b8b2b2;
+        list-style: disc;
+        margin-top: 0.5rem;
+    }
+
+}

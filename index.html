@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Rodrigo Pereira</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div>
+                <h1>Rodrigo<span>.</span></h1>
+            </div>
+            <div class="div-header">
+                <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
+                <nav id="itens">
+                    <a id="index-header" href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>       
+    </header>
+    <main>
+        <div class="home-box">
+            <div class="home-content">
+                <div class="home-text-box">
+                    <div class="home-text">
+                        <h2>Web Developer</h2>
+                        <h1>Hello, I'm <br><span id="name">Rodrigo Pereira</span></h1>
+                        <p>I'm a Web Software Developer with a strong passion for building responsive and performant web applications with great user experiences.</p>
+                        <div class="social-links-box">
+                            <a class="social-link" target="_blank" href="https://github.com/RodrigooPereira"><i class='bx bxl-github'></i></a>
+                            <a class="social-link" target="_blank" href="https://www.linkedin.com/in/rodrigo-pereira-755910227/"><i class='bx bxl-linkedin'></i></a>
+                            <a class="social-link" target="_blank" href=""><i class='bx bxl-twitter'></i></a>
+                            <a class="social-link" target="_blank" href="https://www.instagram.com/rudipereiraa/"><i class='bx bxl-instagram'></i></a>
+                        </div>
+                        <a class="download-cv" href="cv.pdf" download>Download CV <i id="download-icon" class='bx bx-download'></i></a>
+                    </div>
+                </div>
+                <div class="home-photo-box">
+                    <img class="image-me-home" src="images/me.png" alt="">
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/header.js"></script>
+</body>
+</html>

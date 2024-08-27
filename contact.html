@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Rodrigo Pereira - Contact</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div>
+                <h1>Rodrigo<span>.</span></h1>
+            </div>
+            <div class="div-header">
+                <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
+                <nav id="itens">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a id="contact-header" href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>       
+    </header>
+    <main>
+        <div id="contact-container__wrapper">
+            <div id="contact-form__wrapper">
+                <div id="contact-form__box">
+                    <h2>Let's Work Together</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                    <form action="" id="contact-form">
+                        <input placeholder="Full Name" type="text">
+                        <input placeholder="Email Adress" type="text">
+                        <input placeholder="Email Subject" type="text">
+                        <input placeholder="Phone Number" type="text">
+                        <div id="select-box">
+                            <select name="" id="">
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="Web Development">Web Development</option>
+                                <option value="Hardware Consulting">Hardware Consulting</option>            
+                            </select>
+                        </div>
+                        <textarea placeholder="Your Message Here" name="" id=""></textarea>
+                        <button type="submit">Send Message</button>
+                    </form>
+                </div>
+            </div>
+            <div id="contact-contacts__wrapper">
+                <div id="contacts-box">
+                    <div class="contact-box">
+                        <div class="contact-img__box">
+                            <i class='bx bxs-phone'></i>
+                        </div>
+                        <div class="contact-text__box">
+                            <p class="item">Phone</p>
+                            <p class="info">(+351) 924 463 077</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-img__box">
+                            <i class='bx bxs-envelope' ></i>
+                        </div>
+                        <div class="contact-text__box">
+                            <p class="item">Email</p>
+                            <p class="info">rodrigopereiracode@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-box">
+                        <div class="contact-img__box">
+                            <i class='bx bxs-map'></i>
+                        </div>
+                        <div class="contact-text__box">
+                            <p class="item">Location</p>
+                            <p class="info">Lisbon, Portugal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/header.js"></script>
+</body>

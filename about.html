@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <title>Rodrigo Pereira - About</title>
+</head>
+<body>
+    <header>
+        <div class="header-box">
+            <div>
+                <h1>Rodrigo<span>.</span></h1>
+            </div>
+            <div class="div-header">
+                <i id="menu" class='bx bx-menu' onclick="clickMenu()"></i>
+                <nav id="itens">
+                    <a href="index.html">Home</a>
+                    <a id="about-header" href="about.html">About</a>
+                    <a href="services.html">Services</a>
+                    <a href="projects.html">Projects</a>
+                    <a href="contact.html">Contact</a>
+                </nav>
+            </div>
+        </div>       
+    </header>
+    <main>
+        <div id="about-wrapper">
+            <div id="left-box">
+                <div id="left-text__box">
+                    <h1>Resume</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    <div id="left-buttons__box">
+                        <button class="active" id="btn-about" onclick="showAbout()">About Me</button>
+                        <button class="button" onclick="showSkills()">Skills</button>
+                        <button class="button" onclick="showExperience()">Experience</button>
+                        <button class="button" onclick="showEducation()">Education</button>
+                    </div>
+                </div>
+            </div>
+            <div id="right-box">
+                <div id="right-box__wrapper">
+                    <div id="about-box">
+                        <div id="about-text__box">
+                            <h2>About Me</h2>
+                            <p>I'm a Portuguese Web Developer with a strong passion for building responsive and performant web applications that deliver great user experiences. With a keen eye for detail and a dedication to clean, efficient code, I strive to create digital solutions that are not only functional but also aesthetically pleasing.  My expertise includes HTML, CSS, and JavaScript, which I use to craft dynamic and engaging interfaces, as well as WordPress for developing versatile and user-friendly websites with custom themes and plugins that meet diverse client needs.</p>
+                            <p>Outside of coding, I enjoy staying on the cutting edge of technology as a hardware enthusiast. I love tinkering with the latest gadgets and discovering how they enhance our digital experiences. This curiosity naturally extends to my passion for video games, where I appreciate getting lost in well-crafted game worlds, enjoying the stories and creativity that go into them.</p>
+                            <p>Beyond the tech world, I'm deeply fascinated by Eastern religions, philosophies and cultures, which influence both my personal and professional life. As an avid Orientalist, I find great wisdom in exploring these ancient traditions, whether through books, meditation, or simply embracing their principles in my day-to-day life. This interest in mindfulness and balance provides a grounding contrast to the fast-paced tech world, complementing my passion for reading, where I dive into a wide range of genres that expand my understanding of the world. To maintain this balance, I also often retreat into nature exploring new landscapes or simply enjoying the outdoors allows me to recharge and maintain a sense of balance.</p>
+                        </div>                
+                    </div>
+                    <div id="skills-box">
+                        <div id="skills-text__box">
+                            <h2>My Skills</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab eveniet, magni rerum iste impedit porro. </p>
+                            <div id="skills-wrapper">
+                                <div class="skill-box">
+                                    <i class='bx bxl-html5' id="skill1"></i>
+                                    <p>HTML5</p>
+                                </div>
+                                <div class="skill-box">
+                                    <i class='bx bxl-css3' id="skill2"></i>
+                                    <p>CSS3</p>
+                                </div>
+                                <div class="skill-box">
+                                    <i class='bx bxl-javascript' id="skill3"></i>
+                                    <p>JavaScript</p>
+                                </div>
+                                <div class="skill-box">
+                                    <i class='bx bxl-wordpress' id="skill4"></i>
+                                    <p>Wordpress</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="experience-box">
+                        <div id="experience-box__wrapper">
+                            <h2>My Experience</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure itaque sapiente ipsum incidunt magnam quos totam assumenda.</p>
+                            <div id="experience-boxes__wrapper">
+                                <div class="experience-text__box">
+                                    <div class="experience-text">
+                                        <h4>2021</h4>
+                                        <h3>Simulated Practice</h3>
+                                        <li><span>High School - Padre Alberto Neto School</span></li>
+                                    </div>
+                                </div>
+                                <div class="experience-text__box">
+                                    <div class="experience-text">
+                                        <h4>2022</h4>
+                                        <h3>Internship</h3>
+                                        <li><span>Psoside, Alfragide</span></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="education-box"> 
+                        <div id="education-box__wrapper">
+                            <h2>My Education</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor iure itaque sapiente ipsum incidunt magnam quos totam assumenda.</p>
+                            <div id="education-boxes-wrapper">
+                                <div class="education-text__box">
+                                    <div class="education-text">
+                                        <h4>2019 - 2022</h4>
+                                        <h3>Management and Programming of Computer Systems</h3>
+                                        <li><span>High School - Padre Alberto Neto School</span></li>
+                                    </div>
+                                </div>
+                                <div class="education-text__box">
+                                    <div class="education-text">
+                                        <h4>2023 - 2025</h4>
+                                        <h3>Networks and Computer Systems</h3>
+                                        <li><span>University - ISTEC Lisbon</span></li>
+                                    </div>
+                                </div>
+                                <div class="education-text__box">
+                                    <div class="education-text">
+                                        <h4>2024</h4>
+                                        <h3>Responsive Web Design Certification</h3>
+                                        <li><span>freeCodeCamp</span></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="scripts/about.js"></script>
+    <script src="scripts/header.js"></script>
+</body>
