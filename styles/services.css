@@ -63,6 +63,11 @@ main {
 
 @media (max-width: 800px) {
 
+    #services-header {
+        padding-bottom: 0.5rem;
+        border-bottom: none;
+    }
+
     #services-box__wrapper {
         height: auto;
     }

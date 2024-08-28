@@ -71,7 +71,7 @@ span#name {
     border: 1px solid #00e187;
     color: #00e187;
     border-radius: 50%;
-    margin: 1.25rem 0.4rem 0 0.4rem;
+    margin: 1.25rem 0.8rem 0 0;
     font-size: 1.7rem;
     height: 3.4rem;
     width: 3.4rem;
@@ -122,6 +122,11 @@ i#download-icon {
 
     body {
         overflow-x: hidden;
+    }
+
+    #index-header {
+        padding-bottom: 0.5rem;
+        border-bottom: none;
     }
 
     .home-box {

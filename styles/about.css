@@ -82,6 +82,10 @@ main {
 
 /* ABOUT */ 
 
+#about-box {
+    padding-bottom: 2rem;
+}
+
 #about-text__box p, #skills-text__box p, #education-box__wrapper p, #experience-box__wrapper p {
     margin-top: 1.5rem;
     color: #b8b2b2;
@@ -188,6 +192,11 @@ li::marker {
 }
 
 @media (max-width: 800px) {
+
+    #about-header {
+        padding-bottom: 0.5rem;
+        border-bottom: none;
+    }
     
     #about-wrapper {
         flex-direction: column;

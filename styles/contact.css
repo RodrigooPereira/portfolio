@@ -23,6 +23,7 @@ main {
     border-radius: 15px;
     flex-direction: column;
     align-items: center;
+    margin: 2rem 0;
 }
 
 #contact-form__box {
@@ -174,6 +175,11 @@ form button:hover {
 }
 
 @media (max-width: 1150px) {
+
+    #contact-header {
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid #28272C;
+    }
 
     main {
         display: flex;
