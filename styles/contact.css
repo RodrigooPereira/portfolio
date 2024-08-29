@@ -11,7 +11,7 @@ main {
 
 #contact-container__wrapper {
     width: 75vw;
-    height: 89vh;
+    min-height: 89vh;
     display: flex;
     align-items: center;
 }
@@ -67,8 +67,7 @@ form input::placeholder {
     color: #6d6c6c;
 }
 
-input[type=number]::-webkit-inner-spin-button,
-    input[type=number]::-webkit-outer-spin-button {
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
